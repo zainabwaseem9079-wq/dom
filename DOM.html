@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>
+        Tutorial
+    </title>
+    <style>
+.alert
+{
+    background-color: rgb(178, 178, 240);
+    color: rgb(246, 246, 246);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="heading">
+Welcome
+        </h1>
+        <p>
+            Hello
+        </p>
+    </header>
+    <p>
+        Let's create a division!
+    </p>
+    <script>
+        let div = document.createElement ('div');
+        div.id ="paragraph";
+        div.className = "alert";
+        div.innerHTML = "<p> Congrats you have created a division!</p>"
+        document.body.append(div);
+        let heading= document.getElementById("heading");
+        heading.innerHTML = "&#128512"
+    </script>
+</body>
+</html>
